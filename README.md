@@ -1,5 +1,16 @@
 # testProj-1
 
-npm run prefill - to prefill your mongodb
-npm run drop - to drop your prefilled collections
-npm i && npm run dev - to start project
+> Appointments project
+
+## Build Setup
+
+``` bash
+# prefill your mongodb
+$ npm run prefill
+
+# drop your prefilled db
+$ npm run drop
+
+# start project
+$ npm install
+$ npm run dev
