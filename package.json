@@ -1,0 +1,24 @@
+{
+  "name": "testproj1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "prefill": "migrate-mongo up",
+    "drop": "migrate-mongo down"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "node-schedule": "^2.0.0"
+  },
+  "devDependencies": {
+    "migrate-mongo": "^8.2.2",
+    "nodemon": "^2.0.7"
+  }
+}
